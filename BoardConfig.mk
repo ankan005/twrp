@@ -43,8 +43,8 @@ TARGET_2ND_CPU_ABI2 := armeabi
 TARGET_2ND_CPU_VARIANT := cortex-a53
 
 # Crypto
-TW_INCLUDE_CRYPTO := true
-TW_INCLUDE_FBE := true
+#TW_INCLUDE_CRYPTO := true
+#TW_INCLUDE_FBE := true
 
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
@@ -59,7 +59,7 @@ BOARD_KERNEL_BASE        := 0x00000000
 BOARD_KERNEL_PAGESIZE    := 4096
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_RAMDISK_OFFSET     := 0x01000000
-TARGET_PREBUILT_KERNEL := device/xiaomi/wayne/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := device/xiaomi/phoenix/Image.gz-dtb
 
 # Partitions
 BOARD_HAS_LARGE_FILESYSTEM := true
